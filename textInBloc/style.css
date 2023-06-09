@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "KGRedHands";
+    src: url(../assets/KGRedHands.ttf), url(../assets/KGRedHandsO\
+    utline.ttf);
+}
+
+div{
+    height:200px;
+    width:200px;
+    overflow:auto;
+    overflow-wrap: break-word;
+    background-color: rgb(251, 246, 251) ;
+    opacity: 0.75;
+}
+
+.intro{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-family: 'KGRedHands', cursive;
+    color:#4E6E5D
+}
+
+div:hover{
+    width:100%;
+    transition-duration: 3s;
+}
+
+h1{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #AE615b;
+    background-color: rgb(242, 216, 232);
+}
+
+body{
+    background-color: rgb(245, 245, 236) ;
+    background-image: url("../assets/image/heart.png")  ;
+    background-repeat: none;
+    background-position: center;
+}
+

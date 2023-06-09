@@ -1,0 +1,84 @@
+.px>h2{
+    font-size: 48px;
+}
+
+
+.px>p{
+    font-size: 16px;
+}
+
+.em{
+    font-size: 24px;
+}
+
+.em>h2{
+    font-size: 2em;
+}
+
+.em>p{
+    font-size: 0.5em;
+}
+
+html{
+    font-size: 2em;
+}
+
+.rem>h2, .rem>p{
+    font-size: 0.25rem;
+
+}
+
+.percent>h2, .percent>p{
+    font-size: 25%;
+}
+
+.grass{
+    font-weight: 900;
+}
+
+.italique{
+    font-style: italic;
+}
+
+.left-align{
+    text-align: left;
+}
+
+.right-align{
+    text-align: right;
+}
+
+.center-align{
+    text-align: center;
+}
+
+.justify-align{
+    text-align: justify;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.capitalize{
+    text-transform: capitalize;
+}
+
+.lowercase{
+    text-transform: lowercase;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.line-through{
+    text-decoration: line-through;
+}
+
+.no-underline{
+    text-decoration: none;
+}
+
+
+

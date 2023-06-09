@@ -1,0 +1,53 @@
+.box{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.box>.box{
+    height: 50%;
+    width: 50%;
+}
+
+.box>.box>.box{
+    height: 25%;
+    width: 25%;
+}
+
+.first{
+    background-color: black;
+}
+
+.second{
+    background-color: yellow;
+}
+
+.third{
+    background-color: red;
+}
+
+
+.vertical{
+    display: inline-block
+}
+
+
+/*
+.vertical{
+    display: none;
+}
+*/
+
+.right{
+    float: right;
+}
+
+.left{
+    float: left;
+}
+
+.clean{
+    clear: both;
+}
+
