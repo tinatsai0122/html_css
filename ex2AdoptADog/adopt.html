@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pet adoption | Adopt A Dog</title>
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="stylesheet" href="./styles/form.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Poppins:wght@100;200;300;400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <a href="index.html">
+          <div class="logo">
+            <img src="./assets/images/Logo-transparent.png" alt="" />
+          </div>
+        </a>
+        <nav class="head-nav">
+          <ul>
+            <li>
+              <a href="index.html"><div>Home</div></a>
+            </li>
+            <li>
+              <a href="#"><div>About us</div></a>
+            </li>
+            <li>
+              <a href="adopt.html"><div>Pet adoption</div></a>
+            </li>
+            <li>
+              <a href="#"><div>Donate</div></a>
+            </li>
+            <li>
+              <a href="login.html"><div>Login</div></a>
+            </li>
+            <li>
+              <a href="#"><div>Contact</div></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <h1>Vite! Trouvons lui une famille!</h1>
+        <form
+          method="post"
+          enctype="multipart/form-data"
+          action=""
+          class="long-form"
+        >
+          <div class="name">
+            <label for="name">Nom du chien:</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Nom du chien"
+              required
+            />
+          </div>
+          <div class="photo">
+            <label for="photo">Une photo?</label>
+            <input
+              type="file"
+              name="photo"
+              id="photo"
+              placeholder="Photo du chien"
+              required
+            />
+          </div>
+          <div class="date">
+            <label for="date">Date d'arrivee:</label>
+            <input type="date" name="date" id="date" required />
+          </div>
+          <div class="gender">
+            <fieldset>
+              <legend>Sex:</legend>
+              <div class="gender-m">
+                <input type="radio" />
+                <label for="male">Male</label>
+              </div>
+              <div class="gender-f">
+                <input type="radio" />
+                <label for="female">Female</label>
+              </div>
+              <div class="gender-o">
+                <input type="radio" />
+                <label for="inconnu">Inconnu</label>
+              </div>
+            </fieldset>
+          </div>
+          <div class="race">
+            <label for="race">Race:</label>
+            <select name="race" id="race">
+              <option value="">Quelle race?</option>
+              <optgroup label="Petit">
+                <option value="">Chihuahua</option>
+                <option value="">Bulldog francais</option>
+                <option value="">Carlin</option>
+              </optgroup>
+              <optgroup label="Moyen">
+                <option value="">Mallinois</option>
+                <option value="">Berger Allemand</option>
+              </optgroup>
+              <optgroup label="Grand">
+                <option value="">Grand danois</option>
+              </optgroup>
+            </select>
+          </div>
+          <div class="consent">
+            <input type="checkbox" name="consent" id="consent" required />
+            <label for="consent" class="long-text"
+              >En cochant cette case, je conscent de livrer le chien au centre
+              d'adoption le plus proche dans le but de lui trouver un nouveau
+              foyer.</label
+            >
+          </div>
+          <div class="buttons">
+            <button type="submit">Enregistrer le chien</button>
+            <button type="reset">Revenir a zero</button>
+            <button>Sauver le brouillon</button>
+          </div>
+        </form>
+      </div>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="brand">
+          <a href="index.html">
+            <div class="foot-logo">
+              <img src="./assets/images/Logo-White.png" alt="" />
+            </div>
+          </a>
+          <div class="slogan">
+            <h4>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
+              laudantium.
+            </h4>
+          </div>
+        </div>
+        <div class="explore">
+          <h3>Explore</h3>
+          <nav class="foot-nav">
+            <ul>
+              <li>
+                <a href="#"><div>About us</div></a>
+              </li>
+              <li>
+                <a href="adopt.html"><div>Adopt</div></a>
+              </li>
+              <li>
+                <a href="#"><div>Blog</div></a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="contact">
+          <h3>Contact us</h3>
+          <p>20 Long Beach, United States</p>
+          <p>+(123 789654 564)</p>
+          <p>info@example.com</p>
+        </div>
+        <div class="social">
+          <a href=""><div class="social fb"></div></a>
+          <a href=""><div class="social ig"></div></a>
+          <a href=""><div class="social yt"></div></a>
+        </div>
+      </div>
+      <hr />
+      <p class="copyright">Copyright(c) - Tina Tsai - Interface3 WAD 2023</p>
+    </footer>
+  </body>
+</html>

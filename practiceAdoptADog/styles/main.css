@@ -1,0 +1,270 @@
+@font-face {
+  font-family: "Singkong.ttf";
+  src: url(../assets/fonts/Singkong.ttf);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav ul {
+  padding: 0;
+}
+
+nav li {
+  list-style: none;
+}
+
+a,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Header */
+header {
+  background-color: #ffeeda;
+}
+
+header .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 0;
+  overflow: hidden;
+  height: 10%;
+  gap: 5px 50px;
+}
+
+header img {
+  width: 128px;
+  padding: 0px 0px;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+header nav ul li {
+  margin: 0 1rem;
+}
+
+header nav ul a {
+  color: black;
+  font-size: 1.2rem;
+  font-family: "Bree Serif", serif;
+  font-weight: 600;
+}
+
+/* Main */
+
+main {
+  width: 100%;
+  background-image: url("../assets/images/background-pattern-compressed.png");
+  padding: 3% 0px 0px 0px;
+}
+
+main > section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: white;
+  border-radius: 50px 50px 0 0;
+  width: 80%;
+  margin: 2rem auto 0;
+}
+
+section > h1 {
+  padding: 32px;
+  font-family: "Singkong.ttf";
+  font-weight: 100;
+  font-size: 2.25em;
+  text-align: left;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  min-width: 300px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0px 16px 32px;
+}
+
+.card {
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+  margin: 32px 10px;
+  box-shadow: 0px 16px 32px rgba(46, 34, 3, 0.25);
+  overflow: hidden;
+}
+
+.card-pic {
+  height: 65%;
+  overflow: hidden;
+}
+
+.card-pic img {
+  width: 100%;
+}
+
+.card-pic div {
+  max-width: 80%;
+  margin: 5% auto;
+}
+
+.color1 {
+  background-color: #fed7ae;
+}
+.color2 {
+  background-color: #bbd5f8;
+}
+.color3 {
+  background-color: #feb6b7;
+}
+img {
+  width: 100%;
+}
+
+.card-content {
+  background-color: white;
+  padding: 16px;
+}
+
+.card-content > * {
+  margin: 0;
+  padding-top: 5px;
+}
+
+.card-content {
+  font-size: 0.55em;
+}
+.card-content p {
+  color: #a8a39b;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card-content div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Footer */
+footer {
+  background-color: #020a17;
+  padding: 16px;
+  color: white;
+}
+
+footer .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px 100px;
+}
+
+div.slogan {
+  width: 200px;
+}
+
+footer p,
+footer h1,
+footer h2,
+footer h3,
+footer a {
+  color: white;
+  font-size: 0.8em;
+}
+
+footer p,
+footer a,
+footer h2 {
+  color: #a8a39b;
+}
+
+.footer-logo {
+  width: 128px;
+}
+
+footer div.social {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+}
+
+.social.fb {
+  background: url("../assets/images/facebook-w.png");
+  background-size: cover;
+}
+.social.fb:hover {
+  background: url("../assets/images/facebook-o.png");
+  background-size: cover;
+}
+.social.ig {
+  background: url("../assets/images/instagram-w.png");
+  background-size: cover;
+}
+.social.ig:hover {
+  background: url("../assets/images/instagram-o.png");
+  background-size: cover;
+}
+.social.yt {
+  background: url("../assets/images/youtube-w.png");
+  background-size: cover;
+}
+.social.yt:hover {
+  background: url("../assets/images/youtube-o.png");
+  background-size: cover;
+}
+
+.footer-bottom > p {
+  font-size: 0.6em;
+  text-align: center;
+}
+
+/* Special Effects */
+
+header li:first-of-type a {
+  color: orange;
+}
+
+header li a:hover {
+  color: orange;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.card:hover {
+  box-shadow: 0px 10px 16px rgba(46, 34, 3, 0.5);
+  margin: 36px 10px 28px;
+  transition: all 0.2s;
+}

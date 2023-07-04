@@ -1,0 +1,284 @@
+@font-face {
+  font-family: "Singkong.ttf";
+  src: url(../assets/fonts/Singkong.ttf);
+}
+html {
+  height: 100%;
+}
+
+body {
+  padding: 0;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav ul {
+  padding: 0;
+}
+
+nav li {
+  list-style: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 50px 50px 0 0;
+  padding: 30px 50px;
+}
+
+header {
+  background-color: #ffeeda;
+}
+
+footer {
+  background-color: #030917;
+}
+
+a,
+p,
+h2,
+h3,
+h4,
+h5,
+h6,
+li {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Header */
+
+header > div.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.logo img {
+  width: 128px;
+}
+
+nav.header ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+nav.header li {
+  margin: 24px 5px;
+  padding: 5px;
+}
+
+nav.header li a {
+  color: #030917;
+  font-family: "Bree Serif", serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+nav.header a,
+h1,
+h2,
+h3,
+p {
+  color: rgb(46, 34, 3);
+  font-weight: bold;
+}
+
+/* Main */
+h1 {
+  font-family: SingKong;
+  font-weight: 100;
+  font-size: 2.25em;
+}
+
+main {
+  width: 100%;
+  background-image: url("../assets/images/background-pattern-compressed.png");
+  padding: 3% 0px 0px 0px;
+}
+
+main > div.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: white;
+  border-radius: 50px 50px 0 0;
+  width: 80%;
+  margin: 2rem auto 0;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 16px 32px;
+  margin-top: 32px;
+}
+
+.card {
+  width: 300px;
+  height: 300px;
+  margin: 32px 10px;
+  border-radius: 20px;
+  box-shadow: 0px 16px 32px rgba(46, 34, 3, 0.25);
+  overflow: hidden;
+}
+
+.card-img {
+  height: 65%;
+  overflow: hidden;
+}
+
+.pic-img img {
+  width: 100%;
+}
+
+.pic-color1 {
+  background-color: #fed7ae;
+}
+.pic-color2 {
+  background-color: #bbd5f8;
+}
+.pic-color3 {
+  background-color: #feb6b7;
+}
+
+.dog-info {
+  background-color: white;
+  padding: 16px;
+}
+
+.dog-info > * {
+  margin: 0;
+  padding-top: 5px;
+}
+
+.dog-info {
+  font-size: 0.55em;
+}
+.dog-info p {
+  color: #a8a39b;
+}
+
+.dog-info {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.dog-info div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Footer */
+footer {
+  background-color: #020a17;
+  padding: 16px;
+}
+
+footer .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px 80px;
+}
+
+footer p,
+footer h1,
+footer h2,
+footer h3,
+footer h4,
+footer a {
+  color: white;
+  font-size: 0.8em;
+}
+
+div.slogan {
+  width: 250px;
+}
+
+footer p,
+footer a,
+footer h4 {
+  color: #a8a39b;
+}
+
+footer img {
+  width: 128px;
+}
+
+footer div.social {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+}
+
+.social.fb {
+  background: url("../assets/images/facebook-w.png");
+  background-size: cover;
+}
+.social.fb:hover {
+  background: url("../assets/images/facebook-o.png");
+  background-size: cover;
+}
+.social.ig {
+  background: url("../assets/images/instagram-w.png");
+  background-size: cover;
+}
+.social.ig:hover {
+  background: url("../assets/images/instagram-o.png");
+  background-size: cover;
+}
+.social.yt {
+  background: url("../assets/images/youtube-w.png");
+  background-size: cover;
+}
+.social.yt:hover {
+  background: url("../assets/images/youtube-o.png");
+  background-size: cover;
+}
+
+.footer-bottom > p {
+  font-size: 0.6em;
+  text-align: center;
+}
+
+.copyright {
+  font-size: 0.6em;
+  text-align: center;
+  color: #a8a39b;
+}
+
+/* Special Effects */
+
+header li:first-of-type a {
+  color: orange;
+}
+
+header li a:hover {
+  color: orange;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.card:hover {
+  box-shadow: 0px 10px 16px rgba(46, 34, 3, 0.5);
+  margin: 36px 10px 28px;
+  transition: all 0.2s;
+}
